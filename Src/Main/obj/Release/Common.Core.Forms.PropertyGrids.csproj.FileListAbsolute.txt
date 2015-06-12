@@ -1,0 +1,4 @@
+C:\DevBuild\Tamu\GeoInnovation\Common\Core\Forms.PropertyGrids\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Forms.PropertyGrids.dll
+C:\DevSource\Tamu\GeoInnovation\Common\Core\Forms.PropertyGrids\Src\Main\obj\Release\Common.Core.Forms.PropertyGrids.csprojResolveAssemblyReference.cache
+C:\DevSource\Tamu\GeoInnovation\Common\Core\Forms.PropertyGrids\Src\Main\obj\Release\Tamu.GeoInnovation.Common.Core.Forms.PropertyGrids.dll
+C:\DevSource\Tamu\GeoInnovation\Common\Core\Forms.PropertyGrids\build\1.0.0\AnyCPU\release\Tamu.GeoInnovation.Common.Core.Forms.PropertyGrids.dll
