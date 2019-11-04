@@ -7,17 +7,17 @@ using USC.GISResearchLab.Common.Utils.FileTypes;
 
 namespace USC.GISResearchLab.Common.Forms.PropertyGrids.FileFilters
 {
-	public class LogfileFileFilter : UITypeEditor
-	{
-		private SaveFileDialog sfd = new SaveFileDialog();
+    public class LogfileFileFilter : UITypeEditor
+    {
+        private SaveFileDialog sfd = new SaveFileDialog();
 
-		public override UITypeEditorEditStyle GetEditStyle(ITypeDescriptorContext context)
-		{
-			return UITypeEditorEditStyle.Modal;
-		}
+        public override UITypeEditorEditStyle GetEditStyle(ITypeDescriptorContext context)
+        {
+            return UITypeEditorEditStyle.Modal;
+        }
 
-		public override object EditValue(ITypeDescriptorContext context, IServiceProvider provider, object value)
-		{
+        public override object EditValue(ITypeDescriptorContext context, IServiceProvider provider, object value)
+        {
             string path = value.ToString();
             if (File.Exists(path))
             {
@@ -27,12 +27,12 @@ namespace USC.GISResearchLab.Common.Forms.PropertyGrids.FileFilters
             {
                 sfd.FileName = "";
             }
-			sfd.Filter = FileTypes.getFileTypeList(FileTypes.FILE_TYPE_LOG);
-			if (sfd.ShowDialog() == DialogResult.OK )
-			{
-				return sfd.FileName;
-			}
-			return base.EditValue (context, provider, value);
-		}
-	}
+            sfd.Filter = FileTypes.getFileTypeList(FileTypes.FILE_TYPE_LOG);
+            if (sfd.ShowDialog() == DialogResult.OK)
+            {
+                return sfd.FileName;
+            }
+            return base.EditValue(context, provider, value);
+        }
+    }
 }
