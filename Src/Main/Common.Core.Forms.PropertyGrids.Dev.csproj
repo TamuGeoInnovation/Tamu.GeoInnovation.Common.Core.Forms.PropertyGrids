@@ -93,10 +93,8 @@
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
-    <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -142,11 +140,6 @@
     <ProjectReference Include="..\..\..\Common.Core.Logging.LogLevels\Src\Main\Common.Core.Logging.LogLevels.Dev.csproj">
       <Project>{F1B1573F-9197-47BC-A72F-C71E47FC1599}</Project>
       <Name>Common.Core.Logging.LogLevels.Dev</Name>
-      <Private>False</Private>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\Common.Core.Utils\Src\Main\Common.Core.Utils.Dev.csproj">
-      <Project>{0744A732-A7FE-4658-967D-C5A583EF08E4}</Project>
-      <Name>Common.Core.Utils.Dev</Name>
       <Private>False</Private>
     </ProjectReference>
   </ItemGroup>
